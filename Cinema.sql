@@ -6,6 +6,7 @@ CREATE TABLE FILME (
     genero VARCHAR(20) NOT NULL,
     titulo VARCHAR(50) NOT NULL,
     duracao TIME NOT NULL
+    classificaccao VARCHAR(2) NOT NULL,
 );
 
 
