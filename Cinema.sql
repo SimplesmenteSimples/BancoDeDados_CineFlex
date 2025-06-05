@@ -5,8 +5,8 @@ CREATE TABLE FILME (
     id_filme VARCHAR(10) NOT NULL PRIMARY KEY,
     genero VARCHAR(20) NOT NULL,
     titulo VARCHAR(50) NOT NULL,
-    duracao TIME NOT NULL
-    classificaccao VARCHAR(2) NOT NULL,
+    duracao TIME NOT NULL,
+    classificaccao VARCHAR(2) NOT NULL
 );
 
 
